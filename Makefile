@@ -1,7 +1,7 @@
 CXX = gcc
 CXXFLAGS = -Wall -g
 
-main: main.cpp BookSeller.cpp BookSeller.h Book.cpp Book.h
+main: main.c
 	$(CXX) $(CXXFLAGS) -o main $^
 
 all: clean main
