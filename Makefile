@@ -1,7 +1,7 @@
 CXX = clang-7
 CXXFLAGS = -pthread -lm
 
-main: main.cpp
+main: main.c
 	$(CXX) $(CXXFLAGS) -o main $^
 
 all: clean main
