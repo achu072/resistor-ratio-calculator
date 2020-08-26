@@ -1,7 +1,7 @@
 CXX = clang-7
 CXXFLAGS = -w -pthread -lm
 
-main: main.c
+main: main.c ratio.c
 	$(CXX) $(CXXFLAGS) -o main $^
 
 all: clean main
