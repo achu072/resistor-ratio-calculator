@@ -1,9 +1,13 @@
 # Resistor Ratio Calculator
 
-A simple calculator that returns a combination of resistors from E12 or E24 series, based on the user-specified ratio R2/R1 and tolerance.
+  A simple calculator that returns a combination of resistors from E12 or E24 series, based on the user-specified ratio and tolerance.
 
-Can aid in the design of voltage dividers or specific OpAmp gain.
+  Combinations of 2 resistors are tested first -> R2/R1
 
-The output of the calculator is saved to a text file.
+  If none found, combinations of 3 resistors are tested -> R2/(R1+R3)
 
-This repository includes .replit and Makefile for easy integration into Repl.it web based IDE.
+  This calculator can aid in the design of voltage dividers or specific OpAmp gain.
+
+  The output of the calculator is saved to a .txt file.
+
+  `.replit` and `Makefile` are included for easy integration into Repl.it web based IDE.
