@@ -27,7 +27,6 @@
 *.lib
 
 # Executables
-length_test
 *.exe
 *.out
 *.app
