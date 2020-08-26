@@ -1,5 +1,5 @@
 CXX = clang-7
-CXXFLAGS = -pthread -lm
+CXXFLAGS = -w -pthread -lm
 
 main: main.c
 	$(CXX) $(CXXFLAGS) -o main $^
