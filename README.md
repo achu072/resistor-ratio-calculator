@@ -13,4 +13,4 @@
   `.replit` is included for easy integration into Repl.it web based IDE.
   
   Things to implement:
-  -add calculation mode for voltage divider combinations
+      add calculation mode for voltage divider combinations
