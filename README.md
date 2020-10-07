@@ -6,8 +6,11 @@
 
   If none found, combinations of 3 resistors are tested -> R2/(R1+R3)
 
-  This calculator can aid in the design of voltage dividers or specific OpAmp gain.
+  This calculator can aid in the design of specific OpAmp gain.
 
   The output of the calculator is saved to a .txt file.
 
-  `.replit` and `Makefile` are included for easy integration into Repl.it web based IDE.
+  `.replit` is included for easy integration into Repl.it web based IDE.
+  
+  Things to implement:
+  -add calculation mode for voltage divider combinations
